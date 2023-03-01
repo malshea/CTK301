@@ -1,0 +1,27 @@
+a {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
+
+h1 {
+    color: blue;
+    background-color: khaki;
+}
+
+h2 {
+    color: cornflowerblue;
+    background-color: khaki;
+}
+
+h3 {
+    color:aqua;
+    background-color: khaki;
+
+}
