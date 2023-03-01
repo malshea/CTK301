@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-image: url(CVA.jpg);
+}
+
+.imgbox {
+    border: 10px solid black;
+    background-color: yellow;
+    padding: 20px 
+}
+
+h1 {
+    font-style: italic;
+    color: orange;
+    font-weight: normal;
+}
+
+h2 {
+    font-style: italic;
+    color: orange;
+    font-weight: normal;
+}
+
+h3 {
+    font-style: italic;
+    color: orange;
+    font-weight: normal;
+}
+
+h4 {
+    font-style: italic;
+    color: orange;
+    font-weight: normal;
+}
+
+main {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
