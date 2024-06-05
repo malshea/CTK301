@@ -1,0 +1,54 @@
+h1 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-weight: normal;
+   background-color: orange;
+}
+
+h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-weight: normal;
+   background-color: orange;
+}
+
+h3 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-weight: normal;
+   background-color: orange;
+}
+
+h4 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-weight: normal;
+   background-color: orange;
+}
+
+p {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+   text-align: center;
+}
+
+.justify {
+   text-align: justify;
+}
+
+.imgbox {
+   border: 10px solid black;
+   background-color: yellow;
+   padding: 20px;
+}
+
+body {
+   background-color: #ffffff;
+   background-image: url(quad.jpg);
+} 
