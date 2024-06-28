@@ -43,6 +43,16 @@ footer p {
     text-align: center;
 }
 
+nav li {
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    width: 150px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+
 nav ul {
     list-style-type: circle; /* none, disc, circle, square */
     margin:0;
@@ -53,15 +63,6 @@ nav li {
     padding: 10px;
     margin: 10px;
     width: 150px;
-  }
-
-nav li {
-    display: inline-block;
-    padding: 0;
-    margin: 10px;
-    width: 150px;
-    color: #ffffff;
-    text-align: center;
   }
 
 nav li a {
@@ -129,10 +130,10 @@ img {
 }
 
 body {
-    background-image: url(background2.png) 
+    background-color: lightgrey; 
 }
 
 #links {
-    color: gray;
-    font-size: 150px;
+    color: lightgray;
+    font-size: 75px;
 }

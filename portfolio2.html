@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Works</title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
@@ -12,7 +14,10 @@
 </head>
 
 <body>
+   <div id="wrapper">
+   <header>
     <h1 class="center">Works</h1>
+   </header> 
     <nav>
         <ul>
             <li><a href="portfolio.html">About Me</a></li>
@@ -22,18 +27,31 @@
     </nav>
     <main>
         <h2>Audio and Music Production</h2>
-        <p>Here are a few of my audio projects that I have been working on throught my time at ISU.</p>
-        <audio controls autobuffer autoplay>
-            <source src="Foley Narrative.wav" type="audio/mpeg">
+        <p class="maintext">Here are a few of my audio projects that I have been working on throught my time at ISU.</p>
+        <audio controls autobuffer>
+            <source src="Foley Narrative.wav" type="audio/wav">
         </audio>
-        <p>This is a Foley Narrative I created with my group. We used everyday objects such as jackets and tissue paper
+        <p class="maintext">This is a Foley Narrative I created with my group. We used everyday objects such as jackets and tissue paper
             to replicate the sounds of someone walking into a classroom, sitting down, pulling out their computer, and
             writing an essay about the camping trip they went on that weekend.</p>
-        <audio controls autobuffer autoplay>
-            <source src="Loop Based Comp.wav" type="audio/mpeg">
+        <audio controls autobuffer>
+            <source src="Loop Based Comp.wav" type="audio/wav">
         </audio>
-        <p>This is a Loop Based Composition I created with just the sounds of one of my group members beatboxing, my
+        <p class="maintext">This is a Loop Based Composition I created with just the sounds of one of my group members beatboxing, my
             voice, and someone playing piano.</p>
-
-
-    </main>
+            <a href="redbirdstudios.jpg" data-fancybox="gallery" data-caption="Redbird Studios">
+                <img src="redbirdstudios_thumb.jpg">
+              </a>
+              <a href="logic1.png" data-fancybox="gallery" data-caption="Logic Screenshot">
+                <img src="logic1_thumb.jpg">
+              </a>
+              <a href="logic2.png" data-fancybox="gallery" data-caption="Water">
+                <img src="logic2_thumb.jpg">
+              </a>
+        </main>
+        <footer>
+            <p class="center">Copyright Illinois State University</p>
+        </footer>
+    </div> 
+</body>
+</html>
